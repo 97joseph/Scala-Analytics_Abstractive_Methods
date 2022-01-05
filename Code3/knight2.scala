@@ -44,8 +44,8 @@ def first_closed_tour_heuristic(dim: Int, path: Path) : Option[Path] = get_tour_
 //    up to 30 * 30.
 def first_tour_heuristic(dim: Int, path: Path) : Option[Path] = get_tour_auxiliary(dim, path::Nil, false)
 
-//first_closed_tour_heuristic(6, List((3,3)))
-//first_tour_heuristic(8, List((0,0)))
-//first_tour_heuristic(30, List((0,0)))
-//first_tour_heuristic(70, List((0,0)))
+first_closed_tour_heuristic(6, List((3,3)))
+first_tour_heuristic(8, List((0,0)))
+first_tour_heuristic(30, List((0,0)))
+first_tour_heuristic(70, List((0,0)))
 
